@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0">
+    <meta name="screen-orientation" content="landscape">
+    <title>Hide From Me</title>
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data:"
+    />
+    <script type="module" crossorigin src="/assets/index-Bi-0cvEx.js"></script>
+  </head>
+
+  <body>
+    <canvas width="1600" height="900" id="app">
+    </canvas>
+
+  </body>
+  <style>
+    body {
+      margin: 0;
+    }
+    #app {
+      width: 100vw;
+      height: 100vh;
+      position: absolute;
+    }
+    @media screen and (orientation: portrait) {
+      #app {
+        width: 100vh;
+        height: 100vw;
+        transform-origin: left bottom;
+        transform: rotate(90deg) translateX(-50%);
+      }
+    }
+  </style>
+</html>
