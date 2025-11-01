@@ -1,0 +1,19 @@
+<svg
+    width="160"
+    height="90"
+    viewBox="0 0 160 90"
+    xmlns="http://www.w3.org/2000/svg" version="1.1">
+  <defs>
+    <g id="player">
+      <rect width="9" height="12" fill="#FFFF00" stroke="#FFFF0055" stroke-width="2"/>
+      <rect x="6" y="2" width="2" height="4" fill="black"/>
+      <rect x="3" y="2" width="2" height="4" fill="black"/>
+    </g>
+  </defs>
+  <rect x="2" y="2" width="156" height="86" rx="5" ry="5" fill="#141E3C" stroke-width="2" stroke="#AAAAAA"/>
+  <rect x="10" y="80" width="140" height="2" rx="2" fill="#AAAAAA"/>
+  <rect x="15" y="67" width="9" height="12" fill="#FFFF00"/>
+  <use href="#player" x="15" y="67" width="9" height="12" />
+  <rect x="120" y="67" width="10" height="10" fill="#353a1F50" stroke-width="1" stroke="#FFFF00"/>
+  <rect x="50" y="67" width="10" height="10" fill="#353a1F35" stroke-width="1" stroke="#FFFF0035"/>
+</svg>

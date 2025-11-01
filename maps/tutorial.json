@@ -1,0 +1,13 @@
+{
+  "name": "Tutorial",
+  "preview": "preview/tutorial",
+  "player": [100, 130],
+  "obstacles": [
+    [800, 830, 1500, 40]
+  ],
+  "target": 5,
+  "portalWaves": [
+    [[1400, 750]],
+    [[400, 750]]
+  ]
+}

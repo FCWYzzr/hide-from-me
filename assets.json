@@ -1,0 +1,25 @@
+{
+  "image": {
+    "fg/control-keyboard": "svg",
+    "fg/control-keyboard-jump": "svg",
+    "fg/control-keyboard-left": "svg",
+    "fg/control-keyboard-right": "svg",
+    "fg/run-away": "svg",
+    "fg/touch-portal": "svg",
+    "sprite/dummy": "svg",
+    "sprite/player": "svg",
+    "sprite/portal": "svg",
+    "preview/tutorial": "svg"
+  },
+  "sound": {
+    "bgm/world": "wav",
+    "sfx/check": "wav",
+    "sfx/fail": "wav",
+    "sfx/death": "wav",
+    "sfx/jump": "wav",
+    "sfx/level-up": "wav"
+  },
+  "maps": [
+    "tutorial"
+  ]
+}
